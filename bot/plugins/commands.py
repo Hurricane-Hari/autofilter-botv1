@@ -47,15 +47,15 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('♨️𝙱𝚘𝚜𝚜♨️', url='https://t.me/HD_HARI46'),
-        InlineKeyboardButton('🎸𝙾𝚞𝚛 𝙲𝚑𝚊𝚗𝚗𝚎𝚕🎸', url ='https://t.me/STARZONE_MOVIESZ')
+        InlineKeyboardButton('⚡️ Ᏼᴏss ⚡️', url='https://t.me/HD_HARI46'),
+        InlineKeyboardButton('💫 ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 💫', url ='https://t.me/STARZONE_MOVIESZ')
     ],[
-        InlineKeyboardButton('🔰𝙼𝚘𝚟𝚒𝚎 𝚁𝚎𝚚𝚞𝚎𝚜𝚝🔰', url='https://t.me/STARZONE_MOVIEREQUEST')
+        InlineKeyboardButton('✨ Ꮇᴏᴠɪᴇ Ꭱᴇǫᴜᴇsᴛ ✨', url='https://t.me/STARZONE_MOVIEREQUEST')
     ],[
-        InlineKeyboardButton('♻️ ᴏᴜʀ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ♻️',url='https://t.me/STARZONE_SERIES')
+        InlineKeyboardButton('❄️ ϴᴜʀ Տᴇʀɪᴇs Ꮯʜᴀɴɴᴇʟ ❄️',url='https://t.me/STARZONE_SERIES')
     ],[
        
-        InlineKeyboardButton ('𝙼𝚞𝚜𝚝 Join🧐', url='https://t.me/Star_LinkzZ') 
+        InlineKeyboardButton ('❤️‍🔥 Ꮇᴜsᴛ Ꭻᴏɪɴ ❤️‍🔥', url='https://t.me/Star_LinkzZ') 
 
     ]]
     
