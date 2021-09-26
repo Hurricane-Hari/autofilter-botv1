@@ -5,9 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {} How are you!!</b></u>
-<i>Am Just A Movie Sender Bot Only For @STARZONE_MOVIESZ....😉
+<i>ᎪᎷ ᎫႮՏͲ Ꭺ ᎷϴᏙᏆᎬ ՏᎬΝᎠᎬᎡ ᏴϴͲ ϴΝᏞᎽ ҒϴᎡ @STARZONE_MOVIESZ....🔥🔥
 
-JOIN OUR CHANNEL AND MOVIE REQUEST GROUP FROM THE BELOW LINK 🥰
+ᎫϴᏆΝ ϴႮᎡ ᏟᎻᎪΝΝᎬᏞ ᎪΝᎠ ᎷϴᏙᏆᎬ ᎡᎬϘႮᎬՏͲ ᏀᎡϴႮᏢ ҒᎡϴᎷ ͲᎻᎬ ᏴᎬᏞϴᏔ ᏞᏆΝᏦ❤😊 
 
 
 @STARZONE_MOVIEREQUEST
