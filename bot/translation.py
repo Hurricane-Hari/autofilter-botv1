@@ -5,9 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {} How are you!!</b></u>
-<i>ᎪᎷ ᎫႮՏͲ Ꭺ ᎷϴᏙᏆᎬ ՏᎬΝᎠᎬᎡ ᏴϴͲ ϴΝᏞᎽ ҒϴᎡ @STARZONE_MOVIESZ....🔥🔥
+<i>Ꭺᴍ Ꭻᴜsᴛ  Ꭺ Ꮇᴏᴠɪᴇ Տᴇɴᴅᴇʀ Ᏼᴏᴛ ϴɴʟʏ Ғᴏʀ ⛈️ @STARZONE_MOVIESZ....🔥🔥
 
-ᎫϴᏆΝ ϴႮᎡ ᏟᎻᎪΝΝᎬᏞ ᎪΝᎠ ᎷϴᏙᏆᎬ ᎡᎬϘႮᎬՏͲ ᏀᎡϴႮᏢ ҒᎡϴᎷ ͲᎻᎬ ᏴᎬᏞϴᏔ ᏞᏆΝᏦ❤😊 
+Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ Ꭺɴᴅ Ꮇᴏᴠɪᴇ Ꭱᴇǫᴜᴇsᴛ Ꮐʀᴏᴜᴘ Ғʀᴏᴍ Ͳʜᴇ Ᏼᴇʟᴏᴡ Ꮮɪɴᴋ❤😊 
 
 
 @STARZONE_MOVIEREQUEST
