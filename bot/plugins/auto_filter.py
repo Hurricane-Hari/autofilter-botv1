@@ -179,16 +179,22 @@ async def auto_filter(bot, update):
                 chat_name = y["chat_name"]
                 invite_link = y["invite_link"]
                 
+                parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️ Ꭻᴏɪɴ Νᴏᴡ ♻️', url="https://t.me/STR_LinkZz"
+                                    '♻️ Ꭻᴏɪɴ Νᴏᴡ ♻️', url="https://t.me/STARZONE_MOVIESZ"
                                 )
                         ]
                     ]
                 )
+            )
+        except Exception as e:
+            await update.reply_text(f"<b>Error:</b>\n<code>{e}</code>", True, parse_mode="html")
+            LOGGER(__name__).error(e)
+        return
 
            reply_markup = InlineKeyboardMarkup(buttons) 
             for x in ibuttons:
