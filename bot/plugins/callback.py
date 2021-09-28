@@ -117,18 +117,23 @@ async def cb_navg(bot, update: CallbackQuery):
             chat_name = y["chat_name"]
             invite_link = y["invite_link"]
             
-           parse_mode="html",
-                reply_markup=InlineKeyboardMarkup(
+            if ((len(ibuttons)%2) == 0):
+                ibuttons.append(
                     [
-                        [
-                            InlineKeyboardButton
-                                (
-                                    '♻️ Ꭻᴏɪɴ Νᴏᴡ ♻️', url="https://t.me/STR_LinkZz"
-                                )
-                        ]
+                        InlineKeyboardButton
+                            (
+                                f"👑 {chat_name} 👑", url=invite_link
+                            )
                     ]
                 )
-            )
+
+            else:
+                ibuttons[-1].append(
+                    InlineKeyboardButton
+                        (
+                            f"👑 {chat_name} 👑", url=invite_link
+                        )
+                )
         except Exception as e:
             await update.reply_text(f"<b>Error:</b>\n<code>{e}</code>", True, parse_mode="html")
             LOGGER(__name__).error(e)
