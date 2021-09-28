@@ -189,7 +189,6 @@ async def auto_filter(bot, update):
                         ]
                     ]
                 )
-            )
 
            reply_markup = InlineKeyboardMarkup(buttons) 
             for x in ibuttons:
