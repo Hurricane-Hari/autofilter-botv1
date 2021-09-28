@@ -122,7 +122,7 @@ async def cb_navg(bot, update: CallbackQuery):
                     [
                         InlineKeyboardButton
                             (
-                                f"👑 {chat_name} 👑", url=invite_link
+                                f"🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰", url="https://t.me/STR_LinkZz"
                             )
                     ]
                 )
@@ -131,7 +131,7 @@ async def cb_navg(bot, update: CallbackQuery):
                 ibuttons[-1].append(
                     InlineKeyboardButton
                         (
-                            f"👑 {chat_name} 👑", url=invite_link
+                            f"🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰", url="https://t.me/STR_LinkZz"
                         )
                 )
             
@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>♻️ Ꭻᴏɪɴ : @STR_LinkZz ♻️ <br> 🗂️ Ꮇᴏᴠɪᴇ Ｎᴀᴍᴇ :</i> <code>{query}</code>"
+    text=f"<i>♻️ Ꭻᴏɪɴ : @STR_LinkZz ♻️      🗂️ Ꮇᴏᴠɪᴇ Ｎᴀᴍᴇ :</i> <code>{query}</code>"
        
     try:
         await update.message.edit(
