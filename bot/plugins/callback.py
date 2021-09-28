@@ -134,7 +134,13 @@ async def cb_navg(bot, update: CallbackQuery):
                             f"🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰", url="https://t.me/STR_LinkZz"
                         )
                 )
-            
+            buttons = [[
+           InlineKeyboardButton('🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰', url='https://t.me/STR_LinkZz')
+           
+           ]]
+
+           reply_markup = InlineKeyboardMarkup(buttons)
+
         for x in ibuttons:
             temp_results.insert(0, x)
         ibuttons = None
