@@ -190,7 +190,12 @@ async def auto_filter(bot, update):
                     ibuttons[-1].append(
                         InlineKeyboardButton(f"🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰", url="https://t.me/STR_LinkZz")
                     )
-                
+               buttons = [[
+           InlineKeyboardButton('🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰', url='https://t.me/STR_LinkZz')
+           
+           ]]
+
+           reply_markup = InlineKeyboardMarkup(buttons) 
             for x in ibuttons:
                 result[0].insert(0, x) #Insert invite link buttons at first of page
                 
