@@ -45,9 +45,9 @@ class Translation(object):
             
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> Տᴛᴀʀ⭐ᎷᴏᴠɪᴇՏ </code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/A2Z_MOVIES01">A2Z_MOVIES01</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/HD_HARI46">HD_HARI46</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
