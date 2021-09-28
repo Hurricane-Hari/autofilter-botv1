@@ -134,11 +134,7 @@ async def cb_navg(bot, update: CallbackQuery):
                             f"👑 {chat_name} 👑", url=invite_link
                         )
                 )
-        except Exception as e:
-            await update.reply_text(f"<b>Error:</b>\n<code>{e}</code>", True, parse_mode="html")
-            LOGGER(__name__).error(e)
-        return
-
+            
         for x in ibuttons:
             temp_results.insert(0, x)
         ibuttons = None
