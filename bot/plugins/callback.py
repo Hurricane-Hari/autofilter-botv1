@@ -117,29 +117,17 @@ async def cb_navg(bot, update: CallbackQuery):
             chat_name = y["chat_name"]
             invite_link = y["invite_link"]
             
-            if ((len(ibuttons)%2) == 0):
-                ibuttons.append(
+           reply_markup=InlineKeyboardMarkup(
                     [
-                        InlineKeyboardButton
-                            (
-                                f"🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰", url="https://t.me/STR_LinkZz"
-                            )
+                        [
+                            InlineKeyboardButton
+                                (
+                                    '♻️ Ꭻᴏɪɴ Νᴏᴡ ♻️', url="https://t.me/STR_LinkZz"
+                                )
+                        ]
                     ]
                 )
-
-            else:
-                ibuttons[-1].append(
-                    InlineKeyboardButton
-                        (
-                            f"🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰", url="https://t.me/STR_LinkZz"
-                        )
-                )
-            buttons = [[
-           InlineKeyboardButton('🔰 Ꭻᴏɪɴ ϴᴜʀ Ꮯʜᴀɴɴᴇʟ 🔰', url='https://t.me/STR_LinkZz')
-           
-           ]]
-
-           reply_markup = InlineKeyboardMarkup(buttons)
+            )
 
         for x in ibuttons:
             temp_results.insert(0, x)
