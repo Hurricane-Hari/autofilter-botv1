@@ -123,7 +123,7 @@ async def cb_navg(bot, update: CallbackQuery):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️ Ꭻᴏɪɴ Νᴏᴡ ♻️', url="https://t.me/STARZONE_MOVIESZ"
+                                    '♻️ Ꭻᴏɪɴ Νᴏᴡ ♻️', url="https://t.me/STR_LinkZz"
                                 )
                         ]
                     ]
